@@ -1,0 +1,38 @@
+<%- include("./partials/header") %>
+<div class="container mt-5">
+
+    <a href="/auth/back" class="btn btn-large btn-primary">Go Back</a>
+
+    <h1>SignIn Your Account</h1>
+
+<form action="/auth/signup" method="POST" autocomplete="off">
+
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" name="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" name="password" placeholder="Enter your password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("./partials/footer") %>
+
